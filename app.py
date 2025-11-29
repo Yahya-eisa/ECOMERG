@@ -29,7 +29,7 @@ def classify_city(city):
     if pd.isna(city) or str(city).strip() == '':
         return "Other City"
     city = str(city).strip()
- city_map = {
+city_map = {
     "منطقة حولي": {
         "جنوب السرة","السالمية","شرق","حدائق السور","مدينة الكويت","المباركية",
         "الرميثية","البدع","بنيد القار","ميدان حولي","الدسمة","دسمان",
@@ -221,6 +221,7 @@ if uploaded_files:
             file_name=file_name,
             mime="application/pdf"
         )
+
 
 
 
