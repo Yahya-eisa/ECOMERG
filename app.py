@@ -73,7 +73,7 @@ def classify_city(city):
         "الفنطاس","المهبولة","أبو حليفة","الفحيحيل","الفحيحيل الصناعية",
         "الظهر","المنقف","جابر العلي","العقيلة","الرقة","هدية","فهد الأحمد",
         "الصباحية"
-    },
+    }
 }
     for area, cities in city_map.items():
         if city in cities:
@@ -221,5 +221,6 @@ if uploaded_files:
             file_name=file_name,
             mime="application/pdf"
         )
+
 
 
